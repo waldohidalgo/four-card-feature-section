@@ -71,7 +71,9 @@ export default {
         class="p-[21px_26px_24px_29px] flex flex-col bg-white h-[216px] rounded-[5px] border-t-4 shadow-[0px_8px_9px_1px_rgba(0,0,0,0.1)] lg:p-[28px_31px_33px_33px] lg:h-[249px] sm:w-[35%] lg:w-full"
         :class="card.classColor + ' ' + 'item-' + index"
       >
-        <h4 class="text-[20px] font-semibold">{{ card.title }}</h4>
+        <h4 class="text-[20px] font-semibold text-veryDarkBlue">
+          {{ card.title }}
+        </h4>
         <p
           class="mt-[5px] text-[13.3px] text-grayishBlue leading-[21px] lg:mt-[14px]"
         >
